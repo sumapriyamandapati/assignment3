@@ -12,8 +12,8 @@
     "url": "https://github.com/sumapriyamandapati/assignment2/issues"
   },
   "scripts": {
-    "serve:dev": "webpack serve --config webpack.dev.config.ts",
-    "serve": "nodemon -w server server/server.js",
+    "serve": "webpack serve --config webpack.dev.config.ts",
+    "start": "nodemon -w server server/server.js",
     "build": "webpack --config webpack.prod.config.ts && nodemon -w server server/server.js"
   },
   "dependencies": {
