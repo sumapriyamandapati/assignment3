@@ -13,8 +13,8 @@
   },
   "scripts": {
     "serve": "webpack serve --config webpack.dev.config.ts",
-    "start": "nodemon -w server server/server.js",
-    "build": "webpack --config webpack.prod.config.ts && nodemon -w server server/server.js"
+    "server": "nodemon -w server server/server.js",
+    "start": "webpack --config webpack.prod.config.ts && nodemon -w server server/server.js"
   },
   "dependencies": {
     "apollo-server-express": "^3.6.3",
